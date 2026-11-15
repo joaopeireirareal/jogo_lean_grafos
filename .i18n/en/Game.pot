@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.35.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-11\n"
+"POT-Creation-Date: 2026-11-14\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -9,6 +9,10 @@ msgstr "Project-Id-Version: Game v4.35.0\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: ."
+
+#: Game/Levels/MyWorld/L01_hello.lean:7
+msgid "A message shown at the beginning of the level. Use it to explain any new concepts."
+msgstr ""
 
 #: Game.lean:24
 msgid "A small template game."
@@ -53,6 +57,7 @@ msgid "Hello Level"
 msgstr ""
 
 #: Game/Levels/HelloWorld.lean:6
+#: Game/Levels/MyWorld/L01_hello.lean:5
 msgid "Hello World"
 msgstr ""
 
@@ -65,11 +70,11 @@ msgid "Here you can put additional information about the game. It is accessible\
 "Use **markdown**."
 msgstr ""
 
-#: Game/Levels/HelloWorld/L01_HelloWorld.lean:23
+#: Game/Levels/HelloWorld/L01_HelloWorld.lean:21
 msgid "Hidden Hint 1"
 msgstr ""
 
-#: Game/Levels/HelloWorld/L01_HelloWorld.lean:24
+#: Game/Levels/HelloWorld/L01_HelloWorld.lean:22
 msgid "Hidden Hint 2"
 msgstr ""
 
@@ -82,16 +87,34 @@ msgid "Introduce an auxilary result."
 msgstr ""
 
 #. §0: `«{h}»`
-#: Game/Levels/HelloWorld/L01_HelloWorld.lean:19
+#: Game/Levels/HelloWorld/L01_HelloWorld.lean:17
 msgid "Maybe you should use §0 now."
+msgstr ""
+
+#: Game/Levels/MyWorld.lean:4
+msgid "My First World"
 msgstr ""
 
 #: Game/Levels/HelloWorld/L03_NonProp.lean:6
 msgid "Non-Prop-Valued"
 msgstr ""
 
+#. §0: $\\textbf{LaTeX}$
+#: Game/Levels/HelloWorld/L01_HelloWorld.lean:8
+msgid "OIIIIIIIIIIIIIIIIII. There can be §0"
+msgstr ""
+
 #: Game/Doc/Theorems.lean:6
 msgid "Proven in level 1"
+msgstr ""
+
+#. §0: $\\iff$
+#: Game/Levels/MyWorld/L01_hello.lean:11
+msgid "The exercise statement in natural language using latex: §0."
+msgstr ""
+
+#: Game/Levels/MyWorld/L01_hello.lean:15
+msgid "The message shown when the level is completed"
 msgstr ""
 
 #: Game/Doc/Tactics.lean:3
@@ -106,6 +129,10 @@ msgstr ""
 msgid "This introduction is shown before one enters level 1 of the hello world. Use markdown."
 msgstr ""
 
+#: Game/Levels/MyWorld.lean:6
+msgid "This introduction text is shown when one first enters a world."
+msgstr ""
+
 #: Game/Levels/HelloWorld/L02_HypothesisNames.lean:8
 #: Game/Levels/HelloWorld/L03_NonProp.lean:8
 msgid "This is a test level."
@@ -115,15 +142,8 @@ msgstr ""
 msgid "This is the introduction text of the game."
 msgstr ""
 
-#: Game/Levels/HelloWorld/L01_HelloWorld.lean:27
+#: Game/Levels/HelloWorld/L01_HelloWorld.lean:25
 msgid "This last message appears if the level is solved."
-msgstr ""
-
-#. §0: $\\textbf{LaTeX}$
-#: Game/Levels/HelloWorld/L01_HelloWorld.lean:8
-msgid "This text is shown as first message when the level is played.\n"
-"You can insert hints in the proof below. They will appear in this side panel\n"
-"depending on the proof a user provides. There can be §0"
 msgstr ""
 
 #: Game/Doc/Tactics.lean:6
@@ -136,7 +156,7 @@ msgstr ""
 
 #. §0: `«{h}»`
 #. §1: `«{g}»`
-#: Game/Levels/HelloWorld/L01_HelloWorld.lean:15
+#: Game/Levels/HelloWorld/L01_HelloWorld.lean:13
 msgid "You can either start using §0 or §1."
 msgstr ""
 
@@ -146,7 +166,7 @@ msgid "You should use this game as a template for your own game and add your own
 msgstr ""
 
 #. §0: `«{g}»`
-#: Game/Levels/HelloWorld/L01_HelloWorld.lean:22
+#: Game/Levels/HelloWorld/L01_HelloWorld.lean:20
 #: Game/Levels/HelloWorld/L02_HypothesisNames.lean:12
 msgid "You should use §0 now."
 msgstr ""
