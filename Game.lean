@@ -1,5 +1,4 @@
-import Game.Levels.HelloWorld
-import Game.Levels.MyWorld
+
 import Game.Levels.Grafos
 Title "Game Skeleton"
 Introduction
